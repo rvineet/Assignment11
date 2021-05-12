@@ -24,6 +24,9 @@ flex-wrap: wrap;
     box-sizing: border-box;
     /* align-items: center; */
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
 
     flex:0.5
     /* flex-basis: 0.3rem; */
@@ -101,13 +104,15 @@ padding: 10px;
    /* border: 1px solid black; */
    display: flex;
    /* flex-direction: column; */
-   justify-content: space-between;
+   justify-content: space-evenly;
    /* align-content: space-between; */
    flex-wrap: wrap;
 }
 
 
-
+.checkbox-container{
+    display:flex;
+}
 
 
 
@@ -129,6 +134,7 @@ padding: 10px;
     }
     .left{
         width: 669px;
+        flex-direction: row;
     }
 
     .course{
