@@ -24,7 +24,12 @@ function App() {
     <div className="App">
     
     
-    <div className="left"><h3>Course Categories </h3> </div>
+    <div className="left"><h3>Course Categories </h3>
+    {/* <input type="checkbox" value="Data Science" onChange={event => {setSearchTerm(event.target.value)} } checked/> */}
+    
+    
+    
+     </div>
 
     <div className="right">
     

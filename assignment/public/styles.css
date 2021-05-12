@@ -66,6 +66,7 @@ flex-wrap: wrap;
 .course{
     height: 110px;
     width: 126px;
+    /* background-color: gray; */
 }
 .course:hover{
 cursor: pointer; 
@@ -100,7 +101,7 @@ padding: 10px;
    /* border: 1px solid black; */
    display: flex;
    /* flex-direction: column; */
-   justify-content: center;
+   justify-content: space-between;
    /* align-content: space-between; */
    flex-wrap: wrap;
 }
@@ -117,10 +118,27 @@ padding: 10px;
 
 
 @media (max-width : 999px) {
+
+
+    *{
+
+        margin-left: 10px;
+    }
     .App{
       flex-direction: column;
     }
     .left{
         width: 669px;
+    }
+
+    .course{
+        margin-bottom: 55px;
+        width:148px;
+      
+    }
+    .bottom{
+
+justify-content: center;
+        height: 150px;
     }
   }
