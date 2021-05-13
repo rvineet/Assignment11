@@ -21,7 +21,7 @@ name: "Data Science"
 
 {
     id:4,
-    img : "http://docstorus.com/Images/software_dev_med.jpg",
+    img : "https://pagedesignweb.com/wp-content/uploads/2018/07/bilgisayarsistemleri.jpg",
     name: "Design"
 }
 ,
@@ -58,7 +58,7 @@ name: "Data Science"
 
 {
     id:10,
-    img : "http://docstorus.com/Images/software_dev_med.jpg",
+    img : "https://pagedesignweb.com/wp-content/uploads/2018/07/bilgisayarsistemleri.jpg",
     name: "Design"
 },
 
@@ -76,7 +76,7 @@ name: "Data Science"
 
 {
     id:13,
-    img : "http://docstorus.com/Images/software_dev_med.jpg",
+    img : "https://pagedesignweb.com/wp-content/uploads/2018/07/bilgisayarsistemleri.jpg",
     name: "Design"
 },
 
