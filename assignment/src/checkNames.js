@@ -2,23 +2,28 @@ const check = [
 
     {
         id : 1,
-        name: "Data Science"
+        name: "Data Science",
+        value: "da"
     },
     {
         id : 2,
-        name: "Operations"
+        name: "Operations",
+        value: "oper"
     },
     {
         id : 3,
-        name: "Software Development"
+        name: "Software Development",
+        value: "ft"
     },
     {
         id : 4,
-        name: "Design"
+        name: "Design",
+        value: "des"
     },
     {
         id : 5,
-        name: "Finance"
+        name: "Finance",
+        value: "na"
     }];
 
 

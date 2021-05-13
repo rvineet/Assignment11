@@ -13,7 +13,7 @@ return(
     </div>
 
     <div className="name">
-       <p>{props.name}</p> 
+       <h4>{props.name}</h4> 
 
     </div>
 

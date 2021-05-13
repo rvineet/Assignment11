@@ -73,12 +73,17 @@ flex-wrap: wrap;
 
 .course{
     height: 110px;
+    margin-top: 5px;
     width: 126px;
     /* background-color: gray; */
 }
 .course:hover{
 cursor: pointer; 
 
+}
+.course h4{
+    padding-top: 0px;
+    color: #8A2BE2;
 }
 .image{
 

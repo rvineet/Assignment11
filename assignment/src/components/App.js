@@ -1,3 +1,4 @@
+  
 // eslint-disable-next-line
 import React, { useState } from "react";
 import Course from "../components/Course";
@@ -21,10 +22,7 @@ function App() {
 const handleChange = (value) => {
  
 
-if(checkedTerm.length===0){
-  setCheckedTerm(value);
-}
- else if(checkedTerm.includes(value)){
+if(checkedTerm.includes(value)){
    setCheckedTerm(checkedTerm.replace(value, ""))
  }
    else{
@@ -43,6 +41,7 @@ console.log(checkedTerm)
   <Checkbox 
   key = {check.id}
   name = {check.name}
+  value = {check.value}
   onChange ={(event) => {handleChange(event.target.value)}}
   />
   
@@ -82,7 +81,9 @@ console.log(checkedTerm)
          </div> 
 
        <div className="bottom">  {courses.filter((val)=>{
-         if(checkedTerm.length>50){
+
+         if(checkedTerm.length)
+         if(checkedTerm.length>9){
            return val;
          }
                if(searchTerm==='' && checkedTerm===""){
