@@ -91,7 +91,7 @@ console.log(checkedTerm)
                else if(searchTerm==="" && val.name.toLowerCase().includes(checkedTerm.toLowerCase())){
                     return val;
                       }
-              else if(searchTerm!=="" &&val.name.toLowerCase().includes(searchTerm.toLowerCase())){
+              else if(searchTerm!=="" && val.name.toLowerCase().includes(searchTerm.toLowerCase())){
                 return val;
               }
        } 

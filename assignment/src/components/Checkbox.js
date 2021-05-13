@@ -9,7 +9,7 @@ function Checkbox(props){
 
                    
                 <input type="checkbox"  value={props.name} onChange={props.onChange} />
-                <span><p>{props.name}</p></span>
+                <span><h5>{props.name}</h5></span>
 
 
 
